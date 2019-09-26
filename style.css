@@ -32,6 +32,21 @@ h1{
     margin: 2rem;
 }
 
+.gridHome{
+    display: grid;
+    grid-template-columns: repeat(4, 19rem);
+    grid-gap: 1rem 1.5rem;
+    grid-template-rows: repeat(2, 20rem);
+    width: 42rem;
+}
+
+.imageMe{
+    transform: rotate(-90deg);
+    width: 13rem;
+    height: 11rem;
+    
+}
+
 header{
     position: relative;
     left: 0;
