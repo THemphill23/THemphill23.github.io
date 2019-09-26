@@ -1,23 +1,23 @@
 body {
-    background-color: rgb(125, 211, 214);
+    background-color: #ff5c33;
     color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 
 body p{
-    background-color: rgb(125, 211, 214);
+    background-color:papayawhip;
     color: black;
 }
 .contact :link, .contact :visited{
-    color: crimson;
+    color: whitesmoke;
 }
 .contact :hover{
     color: blue;
 }
 
 nav :link, nav :visited{
-    color: crimson;
+    color: whitesmoke;
 }
 nav :hover{
     color: blue;
@@ -46,7 +46,7 @@ nav{
 
 .imageMe{
     margin: 2rem;
-    width: 13rem;
+    width: 12rem;
     height: 16rem;
     
 }

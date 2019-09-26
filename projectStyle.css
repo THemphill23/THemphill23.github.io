@@ -1,17 +1,17 @@
 body {
-    background-color: rgb(125, 211, 214);
+    background-color: #ff5c33;
     color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 
-body p{
-    background-color: rgb(125, 211, 214);
+/* body p{
+    background-color: papayawhip;
     color: black;
-}
+} */
 
 nav :link, nav :visited{
-    color: crimson;
+    color: whitesmoke;
 }
 nav :hover{
     color: blue;
@@ -31,7 +31,7 @@ nav{
 }
 
 .gitLink :link, .gitLink :visited{
-    color: crimson;
+    color: whitesmoke;
 }
 .gitLink :hover{
     color: blue;
@@ -45,10 +45,10 @@ nav{
     grid-template-rows: repeat(2, 25rem);
     width: 42rem;
 }
-/* .vPetsImg{
+.vPetsImg{
     width: 2rem;
     height: 7rem;
-} */
+}
 
 h1{
     margin: 2rem;
