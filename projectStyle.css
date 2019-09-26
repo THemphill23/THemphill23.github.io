@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(125, 211, 214);
+    color:black;
+}
+
+body p{
+    background-color: rgb(125, 211, 214);
+    color: black;
+}
+
+nav :link, nav :visited{
+    color: crimson;
+}
+nav :hover{
+    color: blue;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2rem;
+    justify-content: center;
+}
+
+.flexItem {
+    margin-left: 0rem;
+    padding: 1rem;
+}
+
+.gitLink :link, .gitLink :visited{
+    color: crimson;
+}
+.gitLink :hover{
+    color: blue;
+}
+
+.gridTwo{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 35rem);
+    /* grid-gap: 1rem 1.5rem; */
+    grid-template-rows: repeat(2, 25rem);
+    width: 42rem;
+}
+/* .vPetsImg{
+    width: 2rem;
+    height: 7rem;
+} */
+
+h1{
+    margin: 2rem;
+}
+
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

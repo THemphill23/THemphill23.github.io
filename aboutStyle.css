@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(125, 211, 214);
+    color:black;
+}
+
+body p{
+    background-color: rgb(125, 211, 214);
+    color: black;
+}
+.contact :link, .contact :visited{
+    color: crimson;
+}
+.contact :hover{
+    color: blue;
+}
+
+nav :link, nav :visited{
+    color: crimson;
+}
+nav :hover{
+    color: blue;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2rem;
+    justify-content: center;
+}
+
+.flexItem {
+    margin-left: 0rem;
+    padding: 1rem;
+}
+
+.gridMe{
+    display: grid;
+    grid-template-columns: repeat(4, 19rem);
+    grid-gap: 1rem 1.5rem;
+    grid-template-rows: repeat(2, 20rem);
+    width: 42rem;
+}
+
+.imageMe{
+    margin: 2rem;
+    transform: rotate(-90deg);
+    width: 13rem;
+    height: 11rem;
+    
+}
+
+h1{
+    margin: 2rem;
+}
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
