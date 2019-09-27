@@ -44,15 +44,20 @@ nav{
     border-radius: 1rem;
 }
 
+.hospitalImg{
+    border-radius: 1rem;
+}
+
+.vPetsImg{
+    border-radius: 1rem;
+}
+
 .gridTwo{
     margin: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 35rem);
     grid-template-rows: repeat(2, 25rem);
     width: 42rem;
-}
-.vPetsImg{
-    border-radius: 1rem;
 }
 
 h1{
