@@ -10,6 +10,9 @@ body {
     color: black;
 } */
 
+.imageBanner{
+    border-radius: 2rem;
+}
 nav :link, nav :visited{
     color: #ff5c33;
 }
@@ -37,17 +40,19 @@ nav{
     color: blue;
 }
 
+.dReelImg{
+    border-radius: 1rem;
+}
+
 .gridTwo{
     margin: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 35rem);
-    /* grid-gap: 1rem 1.5rem; */
     grid-template-rows: repeat(2, 25rem);
     width: 42rem;
 }
 .vPetsImg{
-    width: 2rem;
-    height: 7rem;
+    border-radius: 1rem;
 }
 
 h1{

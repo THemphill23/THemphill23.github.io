@@ -6,9 +6,15 @@ body {
 }
 
 body p{
+    border-radius: .5rem;
     background-color: #ff5c33;
     color: black;
 }
+
+.imageBanner{
+    border-radius: 2rem;
+}
+
 .contact :link, .contact :visited{
     color: #ff5c33;
 }
@@ -44,10 +50,15 @@ nav{
     width: 42rem;
 }
 
+.grid-item{
+    padding: 1rem;
+    }
+
 .imageMe{
     margin: 2rem;
-    width: 12rem;
-    height: 16rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 19rem;
     
 }
 

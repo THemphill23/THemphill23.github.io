@@ -5,11 +5,18 @@ body {
 }
 
 body p{
-    border-radius: 1rem;
+    border-radius: .5rem;
     background-color: #ff5c33;
     color: black;
 }
 
+.imageBanner{
+    border-radius: 2rem;
+}
+
+.introWords{
+    padding: 1rem;
+}
 nav :link, nav :visited{
     color: #ff5c33;
 }
@@ -42,8 +49,10 @@ h1{
     width: 42rem;
 }
 
+
 .imageMe{
     margin: 1rem;
+    border-radius: 1rem;
     transform: rotate(-90deg);
     width: 20rem;
     height: 16rem;
