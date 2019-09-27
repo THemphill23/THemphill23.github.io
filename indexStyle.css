@@ -17,8 +17,9 @@ body p{
 }
 
 .introWords{
-    padding: 1rem;
+    padding: 3rem;
 }
+
 nav :link, nav :visited{
     color: #fd4719;
 }
@@ -50,7 +51,6 @@ h1{
     grid-template-rows: repeat(1, 20rem);
     width: 42rem;
 }
-
 
 .imageMe{
     margin: 1rem;
