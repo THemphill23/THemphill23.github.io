@@ -4,7 +4,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-
+body p{
+    border-radius: .5rem;
+}
 .imageBanner{
     border-radius: 2rem;
     width: 35rem;
@@ -45,7 +47,7 @@ nav{
 .gridTwo{
     display: grid;
     margin: 2rem;
-    grid-template-columns: repeat(3, 27rem);
+    grid-template-columns: repeat(3, 28rem);
     grid-template-rows: repeat(1, 25rem);
     width: 42rem;
 }
