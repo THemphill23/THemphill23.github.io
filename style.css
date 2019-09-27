@@ -1,24 +1,26 @@
 body {
-    background-color:papayawhip;
+    background-color:rgb(253, 192, 143);
     color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body p{
     border-radius: .5rem;
-    background-color: #ff5c33;
+    background-color: #fd4719;
     color: black;
 }
 
 .imageBanner{
     border-radius: 2rem;
+    width: 35rem;
+    height: 8rem;
 }
 
 .introWords{
     padding: 1rem;
 }
 nav :link, nav :visited{
-    color: #ff5c33;
+    color: #fd4719;
 }
 nav :hover{
     color: blue;
@@ -45,7 +47,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(4, 19rem);
     grid-gap: 1rem 1.5rem;
-    grid-template-rows: repeat(2, 10rem);
+    grid-template-rows: repeat(1, 20rem);
     width: 42rem;
 }
 

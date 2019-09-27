@@ -1,5 +1,5 @@
 body {
-    background-color: papayawhip;
+    background-color: rgb(253, 192, 143);
     color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
@@ -12,9 +12,11 @@ body {
 
 .imageBanner{
     border-radius: 2rem;
+    width: 35rem;
+    height: 8rem;
 }
 nav :link, nav :visited{
-    color: #ff5c33;
+    color: #fd4719;
 }
 nav :hover{
     color: blue;
@@ -34,7 +36,7 @@ nav{
 }
 
 .gitLink :link, .gitLink :visited{
-    color: #ff5c33;
+    color: #fd4719;
 }
 .gitLink :hover{
     color: blue;
@@ -43,13 +45,13 @@ nav{
 .projectIMG{
     border-radius: 1rem;
     width: 20rem;
-    height: 13rem;
+    height: 12rem;
 }
 .gridTwo{
     display: grid;
     margin: 2rem;
     grid-template-columns: repeat(3, 27rem);
-    grid-template-rows: repeat(2, 25rem);
+    grid-template-rows: repeat(1, 25rem);
     width: 42rem;
 }
 
