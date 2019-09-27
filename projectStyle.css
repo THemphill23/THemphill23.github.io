@@ -40,25 +40,19 @@ nav{
     color: blue;
 }
 
-.dReelImg{
+.projectIMG{
     border-radius: 1rem;
+    width: 20rem;
+    height: 13rem;
 }
-
-.hospitalImg{
-    border-radius: 1rem;
-}
-
-.vPetsImg{
-    border-radius: 1rem;
-}
-
 .gridTwo{
-    margin: 2rem;
     display: grid;
-    grid-template-columns: repeat(2, 35rem);
+    margin: 2rem;
+    grid-template-columns: repeat(3, 27rem);
     grid-template-rows: repeat(2, 25rem);
     width: 42rem;
 }
+
 
 h1{
     margin: 2rem;

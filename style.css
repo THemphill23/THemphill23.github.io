@@ -43,7 +43,7 @@ h1{
 
 .gridHome{
     display: grid;
-    grid-template-columns: repeat(2, 19rem);
+    grid-template-columns: repeat(4, 19rem);
     grid-gap: 1rem 1.5rem;
     grid-template-rows: repeat(2, 10rem);
     width: 42rem;
