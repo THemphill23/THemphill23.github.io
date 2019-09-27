@@ -1,5 +1,5 @@
 body {
-    background-color: #ff5c33;
+    background-color: papayawhip;
     color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
@@ -11,7 +11,7 @@ body {
 } */
 
 nav :link, nav :visited{
-    color: whitesmoke;
+    color: #ff5c33;
 }
 nav :hover{
     color: blue;
@@ -31,7 +31,7 @@ nav{
 }
 
 .gitLink :link, .gitLink :visited{
-    color: whitesmoke;
+    color: #ff5c33;
 }
 .gitLink :hover{
     color: blue;
