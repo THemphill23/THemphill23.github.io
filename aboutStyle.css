@@ -48,7 +48,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(4, 19rem);
     grid-gap: 1rem 1.5rem;
-    grid-template-rows: repeat(1, 25rem);
+    grid-template-rows: repeat(1, 35rem);
     width: 42rem;
 }
 
