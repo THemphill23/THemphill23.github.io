@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(253, 192, 143);
+    background-color:rgb(255, 237, 223);
     color:black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -48,7 +48,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(4, 19rem);
     grid-gap: 1rem 1.5rem;
-    grid-template-rows: repeat(1, 35rem);
+    grid-template-rows: repeat(1, 40rem);
     width: 42rem;
 }
 
