@@ -55,9 +55,8 @@ h1{
 .imageMe{
     margin: 1rem;
     border-radius: 1rem;
-    transform: rotate(-90deg);
-    width: 20rem;
-    height: 16rem;
+    width: 15rem;
+    height: 20rem;
     
 }
 
