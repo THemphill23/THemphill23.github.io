@@ -1,8 +1,7 @@
 body {
     background-color:rgb(255, 237, 223);
     color:black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 body p{
     border-radius: .5rem;
@@ -56,7 +55,7 @@ h1{
     padding-left: 5rem;
     grid-template-columns: repeat(3, 23rem);
     grid-gap: 1rem 1.5rem;
-    grid-template-rows: repeat(1, 28rem);
+    grid-template-rows: repeat(1, 29rem);
     width: 42rem;
 }
 
