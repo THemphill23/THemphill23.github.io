@@ -6,7 +6,6 @@ body {
 
 body p{
     border-radius: .5rem;
-    background-color: #fd4719;
     color: black;
 }
 
@@ -20,12 +19,20 @@ body p{
     padding: 1rem;
 }
 
+#email :link, .email :visited{
+    color: #fd4719;
+}
+#email :hover{
+    color: blue;
+}
+
 nav :link, nav :visited{
     color: #fd4719;
 }
 nav :hover{
     color: blue;
 }
+
 
 nav{
     display: flex;
@@ -41,21 +48,22 @@ nav{
 }
 
 h1{
-    margin: 3rem;
+    margin: 2rem;
 }
 
 .gridHome{
     display: grid;
-    grid-template-columns: repeat(4, 19rem);
+    padding-left: 5rem;
+    grid-template-columns: repeat(3, 23rem);
     grid-gap: 1rem 1.5rem;
-    grid-template-rows: repeat(2, 10rem);
+    grid-template-rows: repeat(1, 30rem);
     width: 42rem;
 }
 
 .imageMe{
     margin: 1rem;
     border-radius: 1rem;
-    width: 15rem;
+    width: 16rem;
     height: 20rem;
     
 }

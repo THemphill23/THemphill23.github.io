@@ -46,12 +46,13 @@ nav{
 }
 .gridTwo{
     display: grid;
+    padding-left: 7rem;
+    justify-content: left;
     margin: 2rem;
     grid-template-columns: repeat(3, 28rem);
     grid-template-rows: repeat(1, 25rem);
     width: 42rem;
 }
-
 
 h1{
     margin: 2rem;

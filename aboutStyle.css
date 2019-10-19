@@ -7,7 +7,6 @@ body {
 
 body p{
     border-radius: .5rem;
-    background-color: #fd4719;
     color: black;
 }
 
@@ -46,7 +45,8 @@ nav{
 
 .gridMe{
     display: grid;
-    grid-template-columns: repeat(4, 19rem);
+    padding-left: 5rem;
+    grid-template-columns: repeat(3, 23rem);
     grid-gap: 1rem 1.5rem;
     grid-template-rows: repeat(1, 40rem);
     width: 42rem;
@@ -57,9 +57,9 @@ nav{
     }
 
 .imageAbout{
-    margin: 2rem;
+    margin: 1rem;
     border-radius: 1rem;
-    width: 15rem;
+    width: 16rem;
     height: 20rem;
     
 }
