@@ -10,6 +10,9 @@ body p{
     color: black;
 }
 
+#tech{
+    font-size: .9rem;
+}
 .imageBanner{
     border-radius: 2rem;
     width: 35rem;
@@ -20,14 +23,14 @@ body p{
     color: #fd4719;
 }
 .contact :hover{
-    color: blue;
+    color: maroon;
 }
 
 nav :link, nav :visited{
     color: #fd4719;
 }
 nav :hover{
-    color: blue;
+    color: maroon;
 }
 
 nav{
@@ -54,14 +57,13 @@ nav{
 
 .grid-item{
     padding: 1rem;
-    }
+}
 
 .imageAbout{
     margin: 3rem;
     border-radius: 1rem;
     width: 16rem;
     height: 20rem;
-    
 }
 
 h1{

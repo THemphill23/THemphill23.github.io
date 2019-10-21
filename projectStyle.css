@@ -15,7 +15,7 @@ nav :link, nav :visited{
     color: #fd4719;
 }
 nav :hover{
-    color: blue;
+    color: maroon;
 }
 
 nav{
@@ -35,7 +35,7 @@ nav{
     color: #fd4719;
 }
 .gitLink :hover{
-    color: blue;
+    color: maroon;
 }
 
 .projectIMG{

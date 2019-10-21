@@ -22,14 +22,14 @@ body p{
     color: #fd4719;
 }
 #email :hover{
-    color: blue;
+    color: maroon;
 }
 
 nav :link, nav :visited{
     color: #fd4719;
 }
 nav :hover{
-    color: blue;
+    color: maroon;
 }
 
 
@@ -58,11 +58,14 @@ h1{
     grid-template-rows: repeat(1, 29rem);
     width: 42rem;
 }
+.grid-item{
+    padding: 1rem;
+}
 
 .imageMe{
     margin: 1rem;
-    border-radius: 1rem;
-    width: 16rem;
+    border-radius: 2rem;
+    width: 17rem;
     height: 20rem;
     
 }
