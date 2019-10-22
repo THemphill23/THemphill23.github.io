@@ -1,8 +1,7 @@
 body {
     background-color:rgb(255, 237, 223);
     color:black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 body p{
@@ -10,9 +9,6 @@ body p{
     color: black;
 }
 
-#tech{
-    font-size: .9rem;
-}
 .imageBanner{
     border-radius: 2rem;
     width: 35rem;
