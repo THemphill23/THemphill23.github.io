@@ -19,12 +19,16 @@ body p{
     padding: 1rem;
 }
 
+#emailButton{
+    color: #fd4719;
+}
+
 #emailButton :link, .emailButton :visited{
     color: #fd4719;
 }
-#emailButton :hover{
+/* #emailButton :hover{
     color: maroon;
-}
+} */
 
 nav :link, nav :visited{
     color: #fd4719;

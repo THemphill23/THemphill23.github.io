@@ -15,12 +15,23 @@ body p{
     height: 8rem;
 }
 
-.contact :link, .contact :visited{
+#linkedButton{
     color: #fd4719;
 }
-.contact :hover{
-    color: maroon;
+
+#gitButton{
+    color: #fd4719;
 }
+
+#tweetButton{
+    color: #fd4719;
+}
+/* #linkedButton :link, .contact :visited{
+    color: #fd4719;
+}
+#linkedButton :hover{
+    color: maroon;
+} */
 
 nav :link, nav :visited{
     color: #fd4719;
