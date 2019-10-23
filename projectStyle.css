@@ -26,6 +26,36 @@ nav{
     justify-content: center;
 }
 
+#demoButton{
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
+#petsButton{
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
+#reviewButton{
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
+#hospitalButton{
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
+#blogButton{
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
+#blankButton{
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
 .flexItem {
     margin-left: 0rem;
     padding: 1rem;
