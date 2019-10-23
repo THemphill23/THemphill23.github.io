@@ -21,6 +21,7 @@ body p{
 
 #emailButton{
     color: #fd4719;
+    border-radius: 1rem;
 }
 
 #emailButton :link, .emailButton :visited{

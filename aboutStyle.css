@@ -17,14 +17,17 @@ body p{
 
 #linkedButton{
     color: #fd4719;
+    border-radius: 1rem;
 }
 
 #gitButton{
     color: #fd4719;
+    border-radius: 1rem;
 }
 
 #tweetButton{
     color: #fd4719;
+    border-radius: 1rem;
 }
 /* #linkedButton :link, .contact :visited{
     color: #fd4719;

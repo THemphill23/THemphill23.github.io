@@ -79,7 +79,7 @@ nav{
     justify-content: left;
     margin: 2rem;
     grid-template-columns: repeat(3, 28rem);
-    grid-template-rows: repeat(1, 25rem);
+    grid-template-rows: repeat(1, 20rem);
     width: 42rem;
 }
 
