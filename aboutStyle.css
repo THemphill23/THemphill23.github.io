@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(255, 237, 223);
+    background-color:#FFEDDF;
     color:black;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -16,25 +16,24 @@ body p{
 }
 
 #linkedButton{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: .5rem;
     color: #fd4719;
     border-radius: 1rem;
 }
 
 #gitButton{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: .5rem;
     color: #fd4719;
     border-radius: 1rem;
 }
 
 #tweetButton{
+    font-family: 'Josefin Sans', sans-serif;
     color: #fd4719;
     border-radius: 1rem;
 }
-/* #linkedButton :link, .contact :visited{
-    color: #fd4719;
-}
-#linkedButton :hover{
-    color: maroon;
-} */
 
 nav :link, nav :visited{
     color: #fd4719;
@@ -52,8 +51,12 @@ nav{
 }
 
 .flexItem {
-    margin-left: 0rem;
-    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 1rem;
+    padding: .5rem;
+    color: #fd4719;
+    border-radius: 1rem;
+
 }
 
 .gridMe{
@@ -69,6 +72,7 @@ nav{
     padding: 1rem;
 }
 
+
 .imageAbout{
     margin: 3rem;
     border-radius: 1rem;
@@ -80,6 +84,7 @@ h1{
     margin: 2rem;
 }
 header{
+    font-family: 'Josefin Sans', sans-serif;
     position: relative;
     left: 0;
     top: 0;
@@ -88,6 +93,7 @@ header{
 }
 
 footer{
+    font-family: 'Josefin Sans', sans-serif;
     position: relative;
     left: 0;
     bottom: 0;

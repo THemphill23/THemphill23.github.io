@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 237, 223);
+    background-color: #FFEDDF;
     color:black;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -27,38 +27,47 @@ nav{
 }
 
 #demoButton{
+    font-family: 'Josefin Sans', sans-serif;
     color: #fd4719;
     border-radius: 1rem;
 }
 
 #petsButton{
+    font-family: 'Josefin Sans', sans-serif;
     color: #fd4719;
     border-radius: 1rem;
 }
 
 #reviewButton{
+    font-family: 'Josefin Sans', sans-serif;
     color: #fd4719;
     border-radius: 1rem;
 }
 
 #hospitalButton{
+    font-family: 'Josefin Sans', sans-serif;
     color: #fd4719;
     border-radius: 1rem;
 }
 
 #blogButton{
+    font-family: 'Josefin Sans', sans-serif;
     color: #fd4719;
     border-radius: 1rem;
 }
 
 #blankButton{
+    font-family: 'Josefin Sans', sans-serif;
     color: #fd4719;
     border-radius: 1rem;
 }
 
 .flexItem {
-    margin-left: 0rem;
-    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 1rem;
+    padding: .5rem;
+    color: #fd4719;
+    border-radius: 1rem;
 }
 
 .gitLink :link, .gitLink :visited{
@@ -88,6 +97,7 @@ h1{
 }
 
 header{
+    font-family: 'Josefin Sans', sans-serif;
     position: relative;
     left: 0;
     top: 0;
@@ -96,6 +106,7 @@ header{
 }
 
 footer{
+    font-family: 'Josefin Sans', sans-serif;
     position: relative;
     left: 0;
     bottom: 0;
