@@ -1,23 +1,7 @@
-export default function Index() {
+export default function Home() {
     return `
-    <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Professional Portfolio</title>
-    <link rel="stylesheet" href="/style/indexStyle.css" />
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-  </head>
-  <header>
-      <h5>
-        Taylor Hemphill Portfolio
-      </h5>
-      <img src="/images/banner2.jpg" class="imageBanner"></img>
-    </header>
-  <body>
       <nav>
-          <button type="button" name="index" class= "flexItem flexItem--1" id="indexButton">Home</button>
+          <button type="button" name="index" class= "flexItem flexItem--1" id="homeButton">Home</button>
           <button type="button" name="aboutMe" class= "flexItem flexItem--2" id="aboutButton">About Me</button>
           <button type="button" name="projects" class= "flexItem flexItem--3" id="projectsButton">Projects</button>
       </nav>
@@ -42,7 +26,6 @@ export default function Index() {
           <br>
           Phone: 330-998-3421
         </p>
-        
       </div>
         
 
@@ -52,7 +35,5 @@ export default function Index() {
           &copy Taylor Hemphill 2019
         </h6>
       </footer>
-    </body>
-</html> 
     `
 }

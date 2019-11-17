@@ -1,17 +1,24 @@
-import Index from "./indexDisplay"
+import Home from "./homeDisplay"
 
 export default ()=>{
-displayIndex()
+    displayHome()
 }
+
+function displayHome(){
+    const homeButton = document.querySelector("#indexButton");
+    homeButton.addEventListener("click", function(){
+            document.querySelector("#app").innerHTML = Home();
+    });
+};
 
 const emailButton = document.getElementById('emailButton');
 emailButton.onclick = function() {
     window.open('mailto:hemphilltaylor@gmail.com')
 }
 
-const indexButton = document.getElementById('indexButton');
+const indexButton = document.getElementById('homeButton');
 indexButton.onclick = function() {
-    window.location="/views/index.html"
+    window.location="/views/home.html"
 }
 
 const aboutButton = document.getElementById('aboutButton');
@@ -24,9 +31,3 @@ projectsButton.onclick = function() {
     window.location="/views/projects.html"
 }
 
-function displayIndex(){
-    const indexButton = document.querySelector("#indexButton");
-    indexButton.addEventListener("click", function(){
-            document.querySelector("#app").innerHTML = Index();
-    });
-};

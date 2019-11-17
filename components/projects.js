@@ -28,9 +28,9 @@ blogButton.onclick = function() {
     window.open("https://github.com/THemphill23/BlackJackProject", "_blank")
 }
 
-var indexButton = document.getElementById('indexButton');
+var indexButton = document.getElementById('homeButton');
 indexButton.onclick = function() {
-    window.location="/views/index.html"
+    window.location="/views/home.html"
 }
 
 var aboutButton = document.getElementById('aboutButton');

@@ -19,9 +19,9 @@ tweetButton.onclick = function() {
     window.open("https://twitter.com/themphill23", "_blank")
 }
 
-const indexButton = document.getElementById('indexButton');
+const indexButton = document.getElementById('homeButton');
 indexButton.onclick = function() {
-    window.location="/views/index.html"
+    window.location="/views/home.html"
 }
 
 const aboutButton = document.getElementById('aboutButton');
