@@ -1,6 +1,6 @@
 export default function Home() {
     return `
-        <div class="gridHome">
+      <div class="gridHome">
         <section class="grid-item blankSpace">
 
         </section>

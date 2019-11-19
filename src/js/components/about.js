@@ -1,4 +1,4 @@
-import About from "../components/aboutDisplay"
+import About from "./aboutDisplay"
 
 export default ()=>{
 displayAbout()
