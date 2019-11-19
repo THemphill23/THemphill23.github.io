@@ -1,63 +1,41 @@
-import About from "./aboutDisplay"
+export default function About() {
+    return `
+    <div class="gridMe">
+        <section class="grid-item grid-item_1">
+            <img src="/images/meSmile3.jpg" class="imageAbout"></img>
+        </section>
 
-export default ()=>{
-displayAbout()
+        <section class=defineMe>
+            <p class="grid-item grid-item-2">
+                    <h3>Summary</h3>
+
+                    I got my Nintendo 64 at a young age and was hooked on video games and technology. 
+                    I wanted to know how everything worked. In high school and college I pursued learning 
+                    more about technology and visual mediums. In 2012 I got a computer animation degree. I am 
+                    currently a Full Stack Developer at We Can Code It with four years of professional experience. 
+                    I am proficient in C#, HTML, CSS, MVC, JavaScript, and Autodesk Maya and will be certified in 
+                    December, 2019. My hobbies include video games, movies, television, comics, 
+                    and Dungeons and Dragons.
+            </p>
+        </section>
+        <section >
+            <p class="grid-item grid-item-3">   
+            <h3>Contact</h3>
+            <button type="button" name="linkedIn" id="linkedButton">LinkedIn</button>
+            <button type="button" name="git" id="gitButton">GitHub</button>
+            <button type="button" name="twitter" id="tweetButton">Twitter</button>
+            
+            <h3>Skills</h3>
+            <section id="tech">
+                C# ⦁ .NET Core ⦁ Active Server Pages / ASP.net ⦁ JavaScript ⦁ Flexbox ⦁ MVC ⦁ HTML ⦁ CSS 
+                ⦁ Grid ⦁ TDD ⦁ Agile (Scrum) ⦁ Object Oriented Programming(OOP) ⦁ AJAX ⦁ JSON ⦁ React 
+                ⦁ Restful APIs ⦁ Responsive Design / Mobile ⦁ Structured Query Language(SQL) 
+                ⦁ Relational Databases / MS SQL ⦁ Source Control / GitHub  ⦁ Microsoft Office  ⦁  Autodesk Maya  ⦁ Nuke  
+                ⦁ AS400  ⦁ Dreamweaver
+            </section>
+            </p>
+            
+        </section>
+    </div>
+    `
 }
-
-const gitButton = document.getElementById('gitButton');
-const tweetButton = document.getElementById('tweetButton');
-const linkedButton = document.getElementById('linkedButton');
-
-function displayAbout (){
-    About()
-
-    gitButton.addEventListener("click", function() {
-        window.open('https://github.com/THemphill23', '_blank')
-    });
-
-    linkedButton.addEventListener("click", function() {
-        window.open("https://www.linkedin.com/in/taylorhemphill1123", "_blank")
-    });
-
-    tweetButton.addEventListener("click", function() {
-        window.open("https://twitter.com/themphill23", "_blank")
-    });
-
-}
-// const gitButton = document.getElementById('gitButton');
-// gitButton.onclick = function() {
-//     window.open('https://github.com/THemphill23', '_blank')
-// }
-
-// const linkedButton = document.getElementById('linkedButton');
-// linkedButton.onclick = function() {
-//     window.open("https://www.linkedin.com/in/taylorhemphill1123", "_blank")
-// }
-
-// const tweetButton = document.getElementById('tweetButton');
-// tweetButton.onclick = function() {
-//     window.open("https://twitter.com/themphill23", "_blank")
-// }
-
-// const indexButton = document.getElementById('homeButton');
-// indexButton.onclick = function() {
-//     window.location="/views/home.html"
-// }
-
-// const aboutButton = document.getElementById('aboutButton');
-// aboutButton.onclick = function() {
-//     window.location="/views/aboutMe.html"
-// }
-
-// const projectsButton = document.getElementById('projectsButton');
-// projectsButton.onclick = function() {
-//     window.location="/views/projects.html"
-// }
-
-// function displayAbout(){
-//     const aboutButton = document.querySelector("#aboutButton");
-//     aboutButton.addEventListener("click", function(){
-//             document.querySelector("#app").innerHTML = About();
-//     });
-// };
-
