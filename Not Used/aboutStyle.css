@@ -1,0 +1,42 @@
+/* 
+
+#linkedButton{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: .5rem;
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
+#gitButton{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: .5rem;
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
+#tweetButton{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fd4719;
+    border-radius: 1rem;
+}
+
+
+.gridMe{
+    display: grid;
+    padding-left: 5rem;
+    grid-template-columns: repeat(3, 23rem);
+    grid-gap: 1rem 1.5rem;
+    grid-template-rows: repeat(1, 29rem);
+    width: 42rem;
+}
+
+.imageAbout{
+    margin: 3rem;
+    border-radius: 1rem;
+    width: 16rem;
+    height: 20rem;
+}
+
+h1{
+    margin: 2rem;
+} */

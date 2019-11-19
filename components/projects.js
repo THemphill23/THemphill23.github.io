@@ -1,44 +1,41 @@
-var demoButton = document.getElementById('demoButton');
-demoButton.onclick = function() {
-    window.open("https://youtu.be/xyEOq86A1xc", "_blank")
+import Project from "../components/projectDisplay"
+
+export default ()=>{
+displayProject()
 }
 
-var petsButton = document.getElementById('clashButton');
-petsButton.onclick = function() {
-    window.open("https://github.com/THemphill23/ApiMastery", "_blank")
-}
+const demoButton = document.getElementById('demoButton');
+const clashButton = document.getElementById('clashButton');
+const reviewButton = document.getElementById('reviewButton');
+const hospitalButton = document.getElementById('albumButton');
+const blogButton = document.getElementById('blogButton');
+const blackjackButton = document.getElementById('blackjackButton');
 
-var reviewButton = document.getElementById('reviewButton');
-reviewButton.onclick = function() {
-    window.open("https://github.com/THemphill23/MvcProject-1", "_blank")
-}
+function displayProject (){
+    Project()
 
-var hospitalButton = document.getElementById('albumButton');
-hospitalButton.onclick = function() {
-    window.open("https://github.com/THemphill23/AlbumProject", "_blank")
-}
+    demoButton.addEventListener("click", function() {
+        window.open("https://youtu.be/xyEOq86A1xc", "_blank")
+    });
 
-var blogButton = document.getElementById('blogButton');
-blogButton.onclick = function() {
-    window.open("https://github.com/THemphill23/MvcMasteryBlog", "_blank")
-}
+    clashButton.addEventListener("click", function() {
+        window.open("https://github.com/THemphill23/ApiMastery", "_blank")
+    });
 
-var blogButton = document.getElementById('blackjackButton');
-blogButton.onclick = function() {
-    window.open("https://github.com/THemphill23/BlackJackProject", "_blank")
-}
+    reviewButton.addEventListener("click", function() {
+        window.open("https://github.com/THemphill23/MvcProject-1", "_blank")
+    });
 
-var indexButton = document.getElementById('homeButton');
-indexButton.onclick = function() {
-    window.location="/views/home.html"
-}
+    hospitalButton.addEventListener("click", function() {
+        window.open("https://github.com/THemphill23/AlbumProject", "_blank")
+    });
 
-var aboutButton = document.getElementById('aboutButton');
-aboutButton.onclick = function() {
-    window.location="/views/about.html"
-}
+    blogButton.addEventListener("click", function() {
+        window.open("https://github.com/THemphill23/MvcMasteryBlog", "_blank")
+    });
 
-var projectsButton = document.getElementById('projectsButton');
-projectsButton.onclick = function() {
-    window.location="/views/projects.html"
+    blackjackButton.addEventListener("click", function() {
+        window.open("https://github.com/THemphill23/BlackJackProject", "_blank")
+    });
+
 }

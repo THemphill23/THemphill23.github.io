@@ -1,11 +1,5 @@
 export default function Home() {
     return `
-      <nav>
-          <button type="button" name="index" class= "flexItem flexItem--1" id="homeButton">Home</button>
-          <button type="button" name="aboutMe" class= "flexItem flexItem--2" id="aboutButton">About Me</button>
-          <button type="button" name="projects" class= "flexItem flexItem--3" id="projectsButton">Projects</button>
-      </nav>
-
         <div class="gridHome">
         <section class="grid-item blankSpace">
 
@@ -27,13 +21,5 @@ export default function Home() {
           Phone: 330-998-3421
         </p>
       </div>
-        
-
-      <script src="/components/app.js"></script>
-      <footer>
-        <h6>
-          &copy Taylor Hemphill 2019
-        </h6>
-      </footer>
-    `
+  `
 }

@@ -1,27 +1,5 @@
-export default function About() {
+export default function Project() {
     return `
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Professional Portfolio</title>
-        <link rel="stylesheet" href="/style/projectStyle.css" />
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-    </head>
-<header>
-    <h5>
-        Taylor Hemphill Portfolio
-    </h5>
-    <img src="/images/banner2.jpg" class="imageBanner"></img>
-</header>
-    <body>
-        <nav>
-            <button type="button" name="index" class= "flexItem flexItem--1" id="homeButton">Home</button>
-            <button type="button" name="aboutMe" class= "flexItem flexItem--2" id="aboutButton">About Me</button>
-            <button type="button" name="projects" class= "flexItem flexItem--3" id="projectsButton">Projects</button>
-        </nav>
-        
     <article class="gridTwo">
 
         <article class="grid-item grid-item-1">
@@ -47,7 +25,7 @@ export default function About() {
             <p class="gitLink">
             <button type="button" name="demoReel" id="demoButton">Video</button>
             <section  id="techStack">Autodesk Maya, Nuke</section>section>
-            <img src="/images/D-Reel3.jpg" class="projectIMG"></img>
+            <img src="/images/D-Reel.jpg" class="projectIMG"></img>
             </p>
         </article>
         
@@ -78,15 +56,5 @@ export default function About() {
             </p>
         </article>
     </article>
-
-    <script src="/components/projects.js"></script>
-    <footer>
-        <h6>
-            &copy Taylor Hemphill 2019
-        </h6>
-    </footer>
-</body>
-
-</html>
     `
 }

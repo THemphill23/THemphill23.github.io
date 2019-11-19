@@ -1,26 +1,5 @@
 export default function About() {
     return `
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Professional Portfolio</title>
-        <link rel="stylesheet" href="/style/aboutStyle.css" />
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-    </head>
-<header>
-    <h5>
-        Taylor Hemphill Portfolio
-    </h5>
-    <img src="/images/banner2.jpg" class="imageBanner"></img>
-</header>
-    <body>
-        <nav>
-            <button type="button" name="index" class= "flexItem flexItem--1" id="homeButton">Home</button>
-            <button type="button" name="aboutMe" class= "flexItem flexItem--2" id="aboutButton">About Me</button>
-            <button type="button" name="projects" class= "flexItem flexItem--3" id="projectsButton">Projects</button>
-        </nav>
     <div class="gridMe">
         <section class="grid-item grid-item_1">
             <img src="/images/meSmile3.jpg" class="imageAbout"></img>
@@ -58,15 +37,5 @@ export default function About() {
             
         </section>
     </div>
-
-    <script src="/components/about.js"></script>
-    <footer>
-        <h6>
-            &copy Taylor Hemphill 2019
-        </h6>
-    </footer>
-    </body>
-
-</html>
-`
+    `
 }

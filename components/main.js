@@ -9,27 +9,31 @@ export default () => {
 
 function pageBuild(){
     index();
-    // home();
-    about();
-    projects();
 }
+
+const emailButton = document.querySelector("emailButton");
+const homeButton = document.querySelector("homeButton");
+const aboutButton = document.querySelector("aboutButton");
+const projectsButton = document.querySelector("projectsButton");
+const landing = document.querySelector("#app");
 
 function index(){
-    const landing = document.querySelector("#app");
     landing.innerHTML = displayHome()
-    const homeButton = document.querySelector("#homeButton");
+
     homeButton.addEventListener("click", function(){
-    document.querySelector("#app").innerHTML = displayHome();
+        document.querySelector("#app").innerHTML = displayHome();
     })
-}
 
-// function home(){
-//     displayHome();
-// }
+    aboutButton.addEventListener("click",  function() {
+        document.querySelector("#app").innerHTML = displayAbout();
+    });
+    
+    projectsButton.addEventListener("click", function() {
+        document.querySelector("#app").innerHTML = displayProjects();
+    });
+    
+    emailButton.addEventListener("click", function() {
+        window.open('mailto:hemphilltaylor@gmail.com')
+    });
 
-function about(){
-    displayAbout();
-}
-function projects(){
-    displayProjects();
 }
