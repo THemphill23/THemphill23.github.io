@@ -109,5 +109,4 @@ public/
 # End of https://www.gitignore.io/api/node,visualstudiocode
 
 #ignore node_module & dist
-/frontend/node_module
-/frontend/dist
+node_modules
