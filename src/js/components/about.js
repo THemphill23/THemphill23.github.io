@@ -18,12 +18,15 @@ export default function About() {
                     and Dungeons and Dragons.
             </p>
         </section>
-        <section >
+        <section>
             <p class="grid-item grid-item-3">   
             <h3>Contact</h3>
-            <button type="button" name="linkedIn" id="linkedButton">LinkedIn</button>
-            <button type="button" name="git" id="gitButton">GitHub</button>
-            <button type="button" name="twitter" id="tweetButton">Twitter</button>
+            <button type="button" name="linkedIn" id="linkedButton">
+            <a href="https://www.linkedin.com/in/taylorhemphill1123", target="blank">LinkedIn</a></button>
+            <button type="button" name="git" id="gitButton">
+            <a href="https://github.com/THemphill23", target="blank">GitHub</a></button>
+            <button type="button" name="twitter" id="tweetButton">
+            <a href="https://twitter.com/themphill23", target="blank">Twitter</a></button>
             
             <h3>Skills</h3>
             <section id="tech">
