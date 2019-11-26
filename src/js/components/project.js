@@ -13,6 +13,16 @@ export default function Project() {
         </article>
 
         <article class="grid-item grid-item-2">
+            <section id="title">Small Business Task Tracker</section>
+            <p class="gitLink">
+            <button type="button" name="smallBusiness" id="smallButton">
+            <a href="https://github.com/THemphill23/Focus", target="blank">GitHub</a></button>
+            <section id="techStack">Visual Studio, C#, Visual Studio Code, HTML, CSS, JS, Restful API, SQL</section>
+            <img src="/images/small.png" class="projectIMG"></img>
+            </p>
+        </article>
+
+        <article class="grid-item grid-item-3">
             <section id="title">Reviews Site</section>
             <p class="gitLink">
                 <button type="button" name="reviews" id="reviewButton">
@@ -20,16 +30,6 @@ export default function Project() {
                 <section id="techStack">Visual Studio, C#, MVC, HTML, CSS, SQL</section>
                 <img src="/images/review.jpg" class="projectIMG"></img>
                 </p>
-        </article>
-
-        <article class="grid-item grid-item-3">
-            <section id="title">Demonstration Reel</section>
-            <p class="gitLink">
-            <button type="button" name="demoReel" id="demoButton">
-            <a href="https://youtu.be/xyEOq86A1xc", target="blank">Video</a></button>
-            <section  id="techStack">Autodesk Maya, Nuke</section>
-            <img src="/images/D-Reel.jpg" class="projectIMG"></img>
-            </p>
         </article>
         
         <article class="grid-item grid-item-4">
@@ -52,13 +52,13 @@ export default function Project() {
             </p>
         </article>
 
-        <article class="grid-item grid-item-6">
-            <section id="title">Black Jack Web App</section>
+        <article class="grid-item grid-item-4">
+            <section id="title">Demonstration Reel</section>
             <p class="gitLink">
-            <button type="button" name="blackjack" id="blackjackButton">
-            <a href="https://github.com/THemphill23/BlackJackProject", target="blank">GitHub</a></button>
-            <section id="techStack">Visual Studio Code, HTML, CSS, JavaScript</section>
-            <img src="/images/blackjackpic.png" class="projectIMG"></img>
+            <button type="button" name="demoReel" id="demoButton">
+            <a href="https://youtu.be/xyEOq86A1xc", target="blank">Video</a></button>
+            <section  id="techStack">Autodesk Maya, Nuke</section>
+            <img src="/images/D-Reel.jpg" class="projectIMG"></img>
             </p>
         </article>
     </article>

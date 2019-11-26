@@ -1,17 +1,17 @@
 import Home from "./components/home"
-import About from "./components/about"
 import Projects from "./components/project"
 
 export default () => {
     pageBuild();
 }
 
-
 function pageBuild(){
     index();
     displayHome();
     email();
-    displayAbout();
+    linked();
+    gitHub();
+    tweets();
     displayProject();
 }
 
@@ -27,7 +27,6 @@ function displayHome(){
     });
 }
 
-
 function email(){
     const emailButton = document.querySelector("#emailButton");
     emailButton.addEventListener("click", function(){
@@ -35,10 +34,24 @@ function email(){
     });
 }
 
-function displayAbout (){
-    const aboutButton = document.querySelector("#aboutButton");
-    aboutButton.addEventListener("click", function(){
-        document.querySelector("#app").innerHTML = About();
+function linked(){
+    const linkedButton = document.querySelector("#linkedButton");
+    linkedButton.addEventListener("click", function(){
+        window.open('https://www.linkedin.com/in/taylorhemphill1123')
+    });
+}
+
+function gitHub(){
+    const gitButton = document.querySelector("#gitButton");
+    gitButton.addEventListener("click", function(){
+        window.open('https://www.github.com/THemphill23')
+    });
+}
+
+function tweets(){
+    const tweetButton = document.querySelector("#tweetButton");
+    tweetButton.addEventListener("click", function(){
+        window.open('https://www.twitter.com/themphill23')
     });
 }
 
