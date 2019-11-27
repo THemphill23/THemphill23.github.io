@@ -1,5 +1,5 @@
-import Home from "./home"
-import Projects from "./project"
+import Home from "./components/home"
+import Projects from "./components/project"
 
 export default () => {
     pageBuild();
