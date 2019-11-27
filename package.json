@@ -1,7 +1,7 @@
 {
   "name": "ProfessionalPortfolio",
   "version": "1.0.0",
-  "main": "../docs/index.html",
+  "main": "index.html",
   "repository": "https://github.com/THemphill23/THemphill23.github.io.git",
   "author": "Taylor Hemphill <54860461+THemphill23@users.noreply.github.com>",
   "license": "MIT",
