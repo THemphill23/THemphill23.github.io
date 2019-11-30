@@ -1,0 +1,167 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+    --black: black;
+    --maroon: maroon;
+    --orange: #fd4719;
+    --background: #FFEDDF;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--black);
+}
+
+body p{
+    border-radius: .5rem;
+    color: var(--black);
+}
+
+nav :link, nav :visited{
+    color: var(--orange);
+}
+
+nav :hover{
+    color: var(--maroon);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2rem;
+    justify-content: center;
+}
+
+h1{
+    margin: 2rem;
+}
+
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.imageBanner{
+    border-radius: 2rem;
+    width: 35rem;
+    height: 8rem;
+}
+/* home */
+.introWords{
+    padding: 1rem;
+}
+
+.flexItem {
+    font-size: medium;
+    margin: 1rem;
+    padding: .5rem;
+    color: var(--orange);
+    border-radius: 1rem;
+}
+
+.gridHome{
+    display: grid;
+    padding-left: 5rem;
+    grid-template-columns: repeat(4, 20rem);
+    grid-gap: 1rem 1.5rem;
+    grid-template-rows: repeat(1, 27.5rem);
+    justify-content: center;
+}
+.grid-item{
+    padding: 1rem;
+}
+
+.introWords, .summary, .tech{
+    font-size: 1.125rem;
+}
+
+.imageMe{
+    margin: 1rem;
+    border-radius: 2rem;
+    width: 15.5rem;
+    height: 20rem;
+    
+}
+
+#emailButton{
+    color: var(--orange);
+    font-size: medium;
+    border-radius: 1rem;
+}
+
+#emailButton :link, #emailButton :visited{
+    color: var(--orange);
+}
+
+#linkedButton, #gitButton, #tweetButton{
+    color: var(--orange);
+    font-size: medium;
+    margin-right: .5rem;
+    border-radius: 1rem;
+}
+
+#linkedButton :link, #gitButton :link, #tweetButton :link, #linkedButton :visited, #gitButton :visited, #tweetButton :visited{
+    color: var(--orange);
+}
+
+.gridMe{
+    display: grid;
+    padding-left: 5rem;
+    grid-template-columns: repeat(3, 23rem);
+    grid-gap: 1rem 1.5rem;
+    grid-template-rows: repeat(1, 29rem);
+    width: 42rem;
+}
+
+#techStack{
+    font-size: .8rem;
+}
+/*home*/
+
+/* projects */
+#demoButton, #clashButton, #albumButton, #reviewButton, #blogButton, #smallButton{
+    color: var(--orange);
+    border-radius: 1rem;
+}
+
+
+#title{
+    font-size: 1.25rem;
+}
+
+.gitLink :link, .gitLink :visited{
+    color: var(--orange);
+}
+.gitLink :hover{
+    color: var(--maroon);
+}
+
+.projectIMG{
+    border-radius: 1rem;
+    width: 20rem;
+    height: 12rem;
+}
+.gridTwo{
+    display: grid;
+    padding-left: 7rem;
+    justify-content: left;
+    margin: 2rem;
+    grid-template-columns: repeat(3, 28rem);
+    grid-template-rows: repeat(1, 20rem);
+    width: 42rem;
+}
+/* projects */
