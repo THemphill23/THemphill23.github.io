@@ -78,7 +78,7 @@ footer{
     padding-left: 5rem;
     grid-template-columns: repeat(4, 20rem);
     grid-gap: 1rem 1.5rem;
-    grid-template-rows: repeat(1, 27.5rem);
+    grid-template-rows: repeat(1, 33rem);
     justify-content: center;
 }
 .grid-item{
