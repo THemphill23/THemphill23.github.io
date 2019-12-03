@@ -107,14 +107,14 @@ footer{
     color: var(--orange);
 }
 
-#linkedButton, #gitButton, #tweetButton{
+#linkedButton, #gitButton, #projectButton{
     color: var(--orange);
     font-size: medium;
     margin-right: .5rem;
     border-radius: 1rem;
 }
 
-#linkedButton :link, #gitButton :link, #tweetButton :link, #linkedButton :visited, #gitButton :visited, #tweetButton :visited{
+#linkedButton :link, #gitButton :link, #projectButton :link, #linkedButton :visited, #gitButton :visited, #projectButton :visited{
     color: var(--orange);
 }
 
@@ -137,7 +137,6 @@ footer{
     color: var(--orange);
     border-radius: 1rem;
 }
-
 
 #title{
     font-size: 1.25rem;
